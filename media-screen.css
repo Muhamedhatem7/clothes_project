@@ -1,0 +1,208 @@
+
+@media (max-width:767px){
+#trend{
+    display: none;
+}
+.carousel-item .d-flex {
+    flex-wrap: wrap;
+}
+.carousel-item .row{
+    margin-right: 0px !important;
+    gap: 0px !important;
+}
+.category .category-box .box img{
+    height: 300px !important; 
+}
+.home-content h1
+{
+    font-size: 43px !important;
+}
+.home-content h1 span
+{
+    font-size: 23px !important;
+}
+.home-content p
+{
+    font-size: 14px !important;
+}
+
+.brands .img img:hover {
+    scale: 1.2 !important;
+}
+.products , .featured-info{
+    grid-template-columns: repeat(auto-fit, minmax(140px , auto)) !important;
+}
+.carousel-inner .d-flex {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.carousel-inner .d-flex .row{
+    margin: auto;
+  }
+  .carousel-inner
+  {
+    flex-direction: column !important;
+  }
+  .product-all img{
+    height: 80% !important;
+}
+.alerts{
+    height: 75px !important;
+    align-items: end !important;
+}
+.Discover-list{
+    flex-wrap: wrap !important;
+}
+.alert-text{
+    font-size: 11px;
+}
+#btns{
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    gap: 2px !important; 
+}
+#btns li{
+    width: 30% !important;
+    margin: auto !important;
+}
+.Nav a span{
+    font-size: 10px !important;
+}
+.carousel-inner .d-flex .row{
+    width: 100% !important;
+}
+.price p.name{
+    font-size: 65% !important;
+    width: 72%;
+    font-weight: 400 !important;
+}
+.newsletter .newsletter-container .form{
+    display: flex;
+    width: 100% !important;
+}
+.newsletter{
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+}
+.footer-container{
+padding: 0 !important;
+}
+.d-xs-none{
+    display: none;
+}
+.navbar img{
+    display: flex;
+    justify-content: center ;
+    width: 12% !important;
+}
+.home-content h2 {
+    font-size: 30px !important;
+}
+.home-content h1 {
+    font-size: 36px !important;
+}
+.blogBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding-bottom: 90px;
+    }
+    #blog{
+        padding: 100px 20px 0px 20px !important;
+    }
+    .blogImg{
+        width:100% !important;
+        margin-right: 0 !important;
+        padding-bottom: 10px !important;
+    }
+    .blogDetails {
+        width: 100% !important;
+    }
+    .newsletter .newsletter-container p {
+        font-size: 11.5px !important; 
+    }
+    #aboutHead{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #aboutHead img{
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    #aboutHead div{
+        padding-left: 0px !important;
+    }
+    #aboutApp .video{
+        width: 100% !important;
+    }
+    .nav-item,
+.navbar-social a {
+    padding-left: 1rem !important;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 1280px)  {
+    .products , .featured-info{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+    .product-all .card{
+        width: 15rem !important;
+    }
+    .feature .feature-box{
+        width: 200px !important;}
+    .footer-row{
+        flex-wrap: wrap;
+    }
+    .blogBox{
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        padding-bottom: 90px;
+        }
+        #blog{
+            padding: 100px 20px 0px 20px !important;
+        }
+        .blogImg{
+            width:50% !important;
+            margin-right: 20px !important;
+            padding-bottom: 10px !important;
+        }
+        .blogDetails {
+            width: 50% !important;
+        }
+        footer .px-5 {
+            padding-right: 0rem!important; 
+            padding-left: 0rem!important;
+        }
+        .newsletter.p-5{
+            padding-left: 1rem !important;
+            padding-right: 1rem !important;
+        }
+        #aboutHead{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        #aboutHead img{
+            width: 100% !important;
+            margin-bottom: 20px;
+        }
+        #aboutHead div{
+            padding-left: 0px !important;   
+        }
+        #aboutApp .video{
+            width: 100% !important;
+        }
+        .display{
+            justify-content: end !important;
+        }
+}
+
+
+
